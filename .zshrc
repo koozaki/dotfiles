@@ -1,3 +1,5 @@
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 # 少し凝った zshrc
 
 #
@@ -26,10 +28,10 @@ SAVEHIST=1000000
 #
 
 # 1line
-# PROMPT="%~ %# "
+PROMPT="%~ %# "
 # 2line
-PROMPT="%{${fg[black]}%}[%n@%m]%{${reset_color}%} %~
-%# "
+# PROMPT="%{${fg[black]}%}[%n@%m]%{${reset_color}%} %~
+# %# "
 
 #
 # 単語の区切り文字を指定する
